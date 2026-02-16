@@ -28,6 +28,8 @@ Email [heiko@flinncomply.com](mailto:heiko@flinncomply.com).
 To solve the challenge, I used only SQL queries, in combination with DuckDB to run the queries and analyze the data, so the SQL is aligned to DuckDB SQL sytax. In _sql/_ folder are two .sql files I used to create schema in the database, and then tables in that schema which I created based on provided .csv files.
 Additionally, I submitted PowerBI file where I created simple dashboard.
 
+Since I didn't have prior experience working at SaaS, I used AI to find out what are the different ways of measuring user retention so I can understand it and ask right question. Also, AI helped me with one DuckDB SQL function I didn't know exist ( `Date_part('isoyear', event_timestamp) = 2026` to easily get entire Week-1 for the last question). In general, I use AI a lot with python for example, but for SQL, I'm very used to it and to me is even easier to write it myself using my own way of writing queries, and not checking what AI generated and whether it is what I wanted it to be.
+
 ## Question 1: How many customers do we have today?
 
 SQL query with the final solution is located in _sql/challenge_solutions/question_1.sql_.
@@ -77,3 +79,4 @@ Finally, there is a heatmap visual to show activity per organization and by week
 
 #### Events
 <img width="877" height="725" alt="image" src="https://github.com/user-attachments/assets/3711fcdd-9a66-4386-bfbc-793b8ebc09ce" />
+
