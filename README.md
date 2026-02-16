@@ -62,3 +62,18 @@ Looking at the results, it's visible that Week-1 has a bit lower retention, but 
 
 ## PowerBI Dashboard
 
+It is consisting of 2 pages- Customers Overview and Events. 
+
+Customers Overview contains _hubspot_ data, giving insigts into number of current customers, Average Contract Value, ratio of customers per lifecycle stage, and then details about customers themselves and deals related to them. There's filtering option if we're interested in specific lifecycle stage.
+
+Events consists of _backend_events_ data. There I put trend lines to see the how the number of users and user activity develop over time. Based on the visuals, we can see that both numbers grew continuously until around September and October last year, and since then they are stagnating with not much fluctuation.
+
+Below, I added bar chart to see the number of users per organization - this could give us insight into who are the biggest customers in terms of users. Next to that we can see what type of events are most commonly used- there we see that two most used operations are _SearchExecuted_ and _SearchResultAppraised_ - which could tell us what is the biggest value of the app itself, and which features are not that used.
+
+Finally, there is a heatmap visual to show activity per organization and by week. This could give us an insight into who are the key customers that keep using the app, we could see if there are risks of churn in case some organization's activity is getting lower, and we could identify upsell opportunities. Upsell can't be identified just with data provided, but if some organization has high usage, and not using all the app features (we'd need that data to combine it together), you could offer upsell to that customer.
+
+#### Customers overview
+<img width="1165" height="659" alt="image" src="https://github.com/user-attachments/assets/98c1c703-42a9-4e77-815c-6579f5dc82b1" />
+
+#### Events
+<img width="877" height="725" alt="image" src="https://github.com/user-attachments/assets/3711fcdd-9a66-4386-bfbc-793b8ebc09ce" />
